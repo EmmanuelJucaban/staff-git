@@ -1,0 +1,14 @@
+body{
+    background: pink;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font: 4em;
+    font-size: 30px;
+    font-weight: normal;
+    color:#000;
+    font-family: 'Lobster', cursive;
+    background: rgba(98, 247, 118, 0.925);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
