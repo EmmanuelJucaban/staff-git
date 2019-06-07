@@ -7,13 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kit</title>
     <link rel="stylesheet" href="./styles.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
-    <h1>Isaac was here ITCHES!!</h1>
-    <h2>What are you doing? </h2>
-    <p>Manny is so cool</p>
-    <h3 id="garrett">GARRETT IS AWESOME</h3>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png" alt="COOL BACKGROUND 1"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h1>Isaac was here ITCHES!!</h1>
+            <h2>What are you doing? </h2>
+            <p>Manny is so cool</p>
+            <h3 id="garrett">GARRETT IS AWESOME</h3>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="https://i.pinimg.com/originals/42/d0/0c/42d00cfaf2cedabc7eac44e94d390c49.jpg" alt="COOL BACKGROUND2"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        });
+    </script>
 </body>
 
 </html>
